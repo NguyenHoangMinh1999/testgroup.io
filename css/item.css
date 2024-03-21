@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* =========================  START-HEADER  ========================= */
+.top-header
+{
+    background: linear-gradient(91.24deg, #0038FF 0%, #2a439c 100%);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+.logo
+{
+    display: flex;
+    margin: 0px 100px 0 200px;
+}
+.logo h1
+{
+    margin: 20px 0 0 0;
+    font-size: 40px;
+    color: white;
+}
+
+.chooses
+{
+    display: flex;
+    margin: 20px 100px 0px 500px;
+}
+.option-1 a
+{
+
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+    transition: 0.3s;
+}
+.option-2 a
+{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+    transition: 0.3s;
+}
+.chooses ul
+{
+    display: flex;
+    padding: 15px 0px 10px 0px;
+}
+
+.chooses li a:hover
+{
+    color: black;
+}
+
+/* =========================  END-HEADER  ========================= */
+.blank
+{
+    background-color: white;
+    height: 50px;
+}
+/* =========================  START-ITEM  ========================= */
+.item-and-option
+{
+    display: flex;
+    margin: 40px 400px 0 400px;
+}
+.item
+{
+    margin: 50px 0 0 auto;
+}
+.item-img img
+{
+    width: 400px;
+    height: 400px;
+}
+.option
+{
+    margin: 50px auto 0 50px;
+}
+.option-title p
+{
+    color: green;
+}
+.option-price p
+{
+    color: red;
+}
+.choice
+{
+    background-color: lightgrey;
+    border: gray 1px solid;
+    width: 150px;
+}
+.choice input
+{
+    margin-left: 10px;
+}
+.quantity
+{
+    margin-top: 10px;
+}
+        span {cursor:pointer; }
+		.number
+        {
+            display: flex;
+		}
+		.minus, .plus{
+			width:20px;
+			height:20px;
+			background:#f2f2f2;
+			border-radius:4px;
+			border:1px solid #ddd;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+		}
+		.number input
+        {
+		    height:20px;
+            width: 50px;
+            text-align: center;
+            font-size: 15px;
+			border:1px solid #ddd;
+			border-radius:4px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+.line
+{
+    margin: 10px 5px 0 5px;
+    width: 150px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+}
+
+.buy-btn p
+{
+    margin-top: 6px;
+    text-align: center;
+}
+.buy-btn
+{
+    background: white;
+    color: #0038FF;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    transition: .3s;
+    border: #0038FF solid 1px;
+    margin: 20px 20px 0px 0;
+}
+.buy-btn:hover
+{
+    background: #0038FF;
+    color: white;
+}
+
+/* =========================  END-ITEM  ========================= */
+/* =========================  START-FOOTER  ========================= */
+.footer
+{
+    display: flex;
+    background: linear-gradient(91.24deg, #0038FF 0%, #2a439c 100%);
+    border: #e5e5e5 solid 2px;
+    margin-top: 50px;
+    height: auto;
+}
+.footer-content-1
+{
+    display: flex;
+    margin: 50px 50px 0 100px;
+    height: 100px;
+}
+.footer-content-1 h1
+{
+    margin: 20px 0 0 0;
+    font-size: 40px;
+    color: white;
+}
+.footer-content-2
+{
+    margin: 30px 50px 0 50px;
+}
+.info
+{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.info img 
+{
+    margin-right: 20px;
+}
+.info p 
+{
+    margin-top: 10px;
+}
+.contact p
+{
+    margin: 50px 0 0 50px;
+    font-size: 20px;
+    color: white;
+}
+.web
+{
+    margin: 10px 0 0 30px;
+}
+.web img
+{
+    margin: 0 0 0 20px;
+}
+
+/* =========================  END-FOOTER  ========================= */
